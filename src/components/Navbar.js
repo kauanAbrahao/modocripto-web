@@ -35,7 +35,7 @@ function Navbar(){
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to='/api' className='nav-links' onClick={closeMobileMenu}>
+                        <Link to='/api' className='nav-links' onClick={closeMobileMenu} target='bl'>
                             API
                         </Link>
                     </li>
@@ -46,7 +46,7 @@ function Navbar(){
                     </li>
                     
                 </ul>
-                {button && <Button buttonStyle='btn--outline'>DOCUMENTACAO</Button>}
+                {button && <Button toLink="http://localhost:4321/swagger-ui.html" buttonStyle='btn--outline'>DOCUMENTACAO</Button>}
 
             </div>
         </nav>
