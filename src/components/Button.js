@@ -7,12 +7,12 @@ const SIZES = ['btn--medium', 'btn--large'];
 
 export const Button = ({children, type, onClick, 
     buttonStyle, buttonSize, toLink}) => {
-        const ckeckButtonSyle = STYLES.includes(buttonStyle) ? buttonStyle : STYLES[0];
+        const checkButtonSyle = STYLES.includes(buttonStyle) ? buttonStyle : STYLES[0];
         const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
         return (
-            <a href="http://localhost:4321/swagger-ui.html" target="_blank" className='btn-mobile' rel='noreferrer'>
-                <button className={'btn ${checkButtonStyle} ${checkButtonSize}'}
+            <a href={toLink} target="_blank" className='btn-mobile' rel='noreferrer'>
+                <button className={`btn ${checkButtonSyle} ${checkButtonSize}`}
                 onClick={onClick}
                 type={type}
                 >
