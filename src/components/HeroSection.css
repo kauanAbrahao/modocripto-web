@@ -7,26 +7,59 @@
   } */
 
   
-  .hero-container {
-    background: url(https://mocah.org/uploads/posts/4578910-map-world-lights-night-globes-space-world-map-electric-power.jpg) center center/cover no-repeat;
-    background: url(https://analyticsinsight.b-cdn.net/wp-content/uploads/2021/06/Profitable-Cryptocurrencies-1024x576.jpeg) center center/cover no-repeat;
-    height: 100vh;
-    width: 100%;
+  .hero-master {
+    content: "";
+    position: relative;
+    left: 0;
+    top: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
-    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0) 60%,
+      rgba(0, 0, 0, 0.8) 100%
+    );
+  }
+
+
+  .hero-img{
+    height: 90%;
+    width: 100%;
+    z-index: -1;
+    filter: blur(0px);
+    -webkit-filter: blur(4px);
+  }
+
+  .hero-text{
+    height: 100%;
+    width: 100%;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    z-index: 100;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+  }
+
+  h1, p, .hero-btns{
+    position: relative;
+    margin-top: -150px;
   }
   
-  .hero-container > h1 {
-    color: #fff;
+  h1 {
+    color: rgb(255, 255, 255);
     font-size: 60px;
-    margin-top: -100px;
   }
   
-  .hero-container > p {
+  p {
     margin-top: 8px;
     color: rgb(255, 218, 183);
     font-size: 32px;
@@ -39,20 +72,20 @@
   }
   
   @media screen and (max-width: 960px) {
-    .hero-container > h1 {
+     h1 {
       font-size: 25px;
       margin-top: -150px;
     }
   }
   
   @media screen and (max-width: 768px) {
-    .hero-container > h1 {
+     h1 {
       font-size: 30px;
       text-align: center;
       margin-top: -100px;
     }
   
-    .hero-container > p {
+    p {
       font-size: 20px;
     }
   
@@ -63,6 +96,15 @@
   
     .btn {
       width: 100%;
+    }
+
+    .hero-master{
+        position: absolute;
+    }
+
+    .hero-img{
+        width: 100vh;
+        position: absolute;
     }
   }
 
