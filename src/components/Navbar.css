@@ -59,13 +59,11 @@
 }
 
 .nav-links:hover {
-  border-bottom: 4px solid #fff;
+  border-bottom: 4px solid coral;
+  color: coral;
   transition: all 0.2s ease-out;
 }
 
-.fa-bars {
-  color: #fff;
-}
 
 .nav-links-mobile {
   display: none;

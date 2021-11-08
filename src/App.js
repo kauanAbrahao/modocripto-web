@@ -4,7 +4,7 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
 function App() {
   return (
-    <div >
+    <>
       <Router>
         <Navbar></Navbar>
         <Routes>
@@ -12,7 +12,7 @@ function App() {
         </Routes>
       </Router>
       <HeroSection ></HeroSection>
-    </div>
+    </>
   );
 }
 
