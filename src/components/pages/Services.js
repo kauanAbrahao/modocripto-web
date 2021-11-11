@@ -1,6 +1,13 @@
 import React from 'react';
 import '../../App.css';
+import CardItem from '../CardItem';
+import ServicesHeroSection from '../ServicesHeroSection';
 
 export default function Services() {
-  return <h1 className='services'>SERVICES</h1>;
+
+  return (
+    <>
+      <ServicesHeroSection/>
+    </>
+  )
 }

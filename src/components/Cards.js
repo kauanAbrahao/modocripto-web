@@ -21,14 +21,14 @@ function Cards() {
               src='https://static.news.bitcoin.com/wp-content/uploads/2018/04/koinex-banner.png'
               text='Provenientes das principais bolsas de valores internacionais'
               label='Serviços'
-              path='/products'
+              path='/servicos'
               description={["Binance", "Coinbase", "Kraken", "Gemini"]}
             />
             <CardItem
               src='https://uzmancoin.com/wp-content/uploads/2019/06/coinmarketcap-2-1280x720.jpg'
               text='Processados e prontos para o consumo'
               label='Serviços'
-              path='/sign-up'
+              path='/servicos'
               description={["Separados por criptomoedas", "Separados por data", "Fácil leitura", "Formato JSON"]}
             />
           </ul>
