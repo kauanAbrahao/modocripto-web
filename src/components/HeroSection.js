@@ -1,26 +1,26 @@
-import React, {useState} from "react";
-import { Button } from "./Button";
-import './HeroSection.css'
+import React from 'react';
+import '../App.css';
+import { Button } from './Button';
+import './HeroSection.css';
 
 function HeroSection() {
-    return (
-        <div className='hero-master'>
-            <img className="hero-img" src="https://analyticsinsight.b-cdn.net/wp-content/uploads/2021/06/Profitable-Cryptocurrencies-1024x576.jpeg" alt='Crypto'/>
-                <div className="hero-text">
-                    <h1>Dados Internacionais de Criptomoedas</h1>
-                    <p>Atualize sua aplicação em tempo real</p>
-                    <div className='hero-btns'>
-                    <Button
-                        className='btns'
-                        buttonStyle='btn--outline'
-                        buttonSize='btn--large'
-                    >
-                        Entenda a API
-                    </Button>
-                </div>
-            </div>
+  return (
+    <div className='hero-container'>
+      {/*(<video src='/videos/video-1.mp4' autoPlay loop muted /> */}
+      <h1>DADOS INTERNACIONAIS DE CRIPTOMOEDAS</h1>
+      <p>Atualize sua aplicação em tempo real</p>
+      <div className='hero-btns'>
+        <Button
+          className='btns'
+          buttonStyle='btn--outline'
+          buttonSize='btn--large'
+          toLink='http://localhost:4321/swagger-ui.html'
+        >
+          Entenda a API
+        </Button>
       </div>
-    );
-  }
-  
-  export default HeroSection;
+    </div>
+  );
+}
+
+export default HeroSection;

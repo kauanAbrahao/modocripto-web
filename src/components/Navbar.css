@@ -47,7 +47,9 @@
 
 .nav-item {
   height: 80px;
+  margin-top: 10px;
 }
+
 
 .nav-links {
   color: #fff;
@@ -59,11 +61,14 @@
 }
 
 .nav-links:hover {
-  border-bottom: 4px solid coral;
   color: coral;
+  border-bottom: 4px solid coral;
   transition: all 0.2s ease-out;
 }
 
+.fa-bars {
+  color: #fff;
+}
 
 .nav-links-mobile {
   display: none;
@@ -106,7 +111,7 @@
   }
 
   .nav-links:hover {
-    background-color: coral;
+    background-color: #fff;
     color: #242424;
     border-radius: 0;
   }

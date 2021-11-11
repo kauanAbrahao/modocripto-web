@@ -1,0 +1,7 @@
+ul, li{
+    list-style-type: none;
+    color: black;
+    text-align: center;
+    margin-top: -15px;
+    padding:10px;
+}
