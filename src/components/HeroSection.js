@@ -14,7 +14,7 @@ function HeroSection() {
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
-          toLink='http://localhost:4321/swagger-ui.html'
+          toLink='/servicos'
         >
           Entenda a API
         </Button>
