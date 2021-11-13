@@ -70,6 +70,15 @@
   box-sizing: border-box;
 }
 
+.sub-title{
+  margin-top: 40px;
+  font-weight: 600;
+}
+
+.title{
+  font-weight: 700;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
@@ -135,6 +144,7 @@ h2, .h2 {
 h3, .h3 {
   font-size: calc(1.3rem + 0.6vw);
 }
+
 @media (min-width: 1200px) {
   h3, .h3 {
     font-size: 1.75rem;
