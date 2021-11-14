@@ -1,8 +1,10 @@
 import React from 'react'
 import ServicesCards from './ServicesCards'
 import './ServicesHeroSection.css'
+import {config} from '../Constants'
 
 function ServicesHeroSection() {
+    const swagger_url = config.url.SWAGGER_URL;
     return (
         <>
    <section classNameName="py-5 border-bottom" id="features">
@@ -10,7 +12,7 @@ function ServicesHeroSection() {
             <div className="container px-5 my-5">
                 <div className="row gx-5">
                     <div className="col-lg-4 mb-5 mb-lg-0">
-                       <div className="feature bg-gradient text-white rounded-3 mb-3"><i className="bi bi-collection"></i></div>
+                       <div className="feature bg-gradient text-white rounded-3 mb-3">{/*<i className="bi bi-collection"></i>*/}</div>
                         <div className='jsonImg'></div>
                         <h2 className="h4 fw-bolder">Interface REST</h2>
                         <p>Faça requisições rápidas e simples nos edpoints da ModoCripto, consumindo dados em formato JSON em tempo real.</p>
@@ -19,13 +21,13 @@ function ServicesHeroSection() {
                             <i className="bi bi-arrow-right"></i>
                         </a>
                         <br/>
-                        <a className="text-decoration-none" href="http://localhost:4321/swagger-ui.html" target='_blank' rel="noreferrer">
+                        <a className="text-decoration-none" href={swagger_url} target='_blank' rel="noreferrer">
                             Documentação Swagger
                             <i className="bi bi-arrow-right"></i>
                         </a>
                     </div>
                     <div className="col-lg-4 mb-5 mb-lg-0">
-                        <div className="feature-2 bg-primary bg-gradient text-white rounded-3 mb-3"><i className="bi bi-building"></i></div>
+                        <div className="feature-2 bg-primary bg-gradient text-white rounded-3 mb-3">{/*<i className="bi bi-building"></i>*/}</div>
                         <h2 className="h4 fw-bolder">Origem dos Dados</h2>
                         <p>A ModoCripto reúne dados de uma série de bolsas, aplicações, casas e mercados que comercializam criptomoedas. Dessa forma,
                             não há mais necessidade de conectar-se em uma série de endpoints, atendendo às demanas da sua aplicação em apenas um. Entre as plataformas
@@ -43,7 +45,7 @@ function ServicesHeroSection() {
                         </a>
                     </div>
                     <div className="col-lg-4">
-                        <div className="feature-3  bg-gradient text-white rounded-3 mb-3"><i className="bi bi-toggles2"></i></div>
+                        <div className="feature-3  bg-gradient text-white rounded-3 mb-3">{/*<i className="bi bi-toggles2"></i>*/}</div>
                         <h2 className="h4 fw-bolder">Principais Criptomoedas</h2>
                        <span> <p>A ModoCripto conta com mais de 90 criptomoedas, incluindo dados históricos e atuais. Entre elas, Bitcoin (BTC), Ethereum (ETH) e Litecoin (LTC). </p> </span>
                     </div>

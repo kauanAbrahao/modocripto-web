@@ -2,8 +2,12 @@ import React, { useState, useEffect } from 'react';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import {config} from '../Constants';
 
 function Navbar() {
+  const swagger_url = config.url.SWAGGER_URL;
+
+
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
 
@@ -62,7 +66,7 @@ function Navbar() {
 
             <li>
               <Link
-                to='http://localhost:4321/swagger-ui.html'
+                to={swagger_url}
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >
@@ -70,7 +74,7 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline' toLink='http://localhost:4321/swagger-ui.html'>DOCUMENTAÇÃO</Button>}
+          {button && <Button buttonStyle='btn--outline' toLink={swagger_url}>DOCUMENTAÇÃO</Button>}
         </div>
       </nav>
     </>
