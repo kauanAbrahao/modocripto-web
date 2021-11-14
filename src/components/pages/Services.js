@@ -1,6 +1,5 @@
 import React from 'react';
 import '../../App.css';
-import CardItem from '../CardItem';
 import ServicesCardSection from '../ServicesCardSection';
 import ServicesHeroSection from '../ServicesHeroSection';
 import Footer from '../Footer';
