@@ -32,12 +32,12 @@ function ServicesHeroSection() {
                             centralizadas na ModoCripto, estão a CoinGecko e o Mercado Bitcoin.
 
                         </p>
-                        <a className="text-decoration-none" href="https://www.coingecko.com/pt">
+                        <a className="text-decoration-none" href="https://www.coingecko.com/pt" target='_blank' rel="noreferrer">
                             CoinGecko
                             <i className="bi bi-arrow-right"></i>
                         </a>
                         <br/>
-                        <a className="text-decoration-none" href="https://www.mercadobitcoin.com.br/en/">
+                        <a className="text-decoration-none" href="https://www.mercadobitcoin.com.br/en/" target='_blank' rel="noreferrer">
                             Mercado Bitcoin
                             <i className="bi bi-arrow-right"></i>
                         </a>
