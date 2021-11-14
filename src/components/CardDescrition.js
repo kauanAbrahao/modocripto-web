@@ -3,7 +3,7 @@ import './CardDescription.css'
 
 function CardDescrition(props) {
     return (
-        <div>
+        <div className='card-descrip'>
         <ul>
              {props.description.map((item) => (<li>{item}</li>))}
         </ul>

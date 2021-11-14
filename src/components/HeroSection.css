@@ -8,7 +8,7 @@
 */
 
 .hero-container {
-   background: url(https://exame.com/wp-content/uploads/2020/11/cripto-bitcoin-trade.jpg) center center/cover no-repeat;
+   background: url(./images/hero-section-coins.jpg) center center/cover no-repeat;
   height: 100vh;
   width: 100%;
   display: flex;
