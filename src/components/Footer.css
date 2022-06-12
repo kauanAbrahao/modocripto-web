@@ -125,6 +125,11 @@
   width: 240px;
 }
 
+.social-icon-link:hover{
+    color: coral;
+    transition: all 0.2s ease-out;
+}
+
 .social-logo {
   color: #fff;
   justify-self: start;
@@ -135,6 +140,11 @@
   display: flex;
   align-items: center;
   margin-bottom: 16px;
+}
+
+.social-logo:hover {
+    color: coral;
+    transition: all 0.2s ease-out;
 }
 
 .website-rights {
