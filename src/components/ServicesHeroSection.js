@@ -30,7 +30,7 @@ function ServicesHeroSection() {
                         <div className="feature-2 bg-primary bg-gradient text-white rounded-3 mb-3">{/*<i className="bi bi-building"></i>*/}</div>
                         <h2 className="h4 fw-bolder">Origem dos Dados</h2>
                         <p>A ModoCripto reúne dados de uma série de bolsas, aplicações, casas e mercados que comercializam criptomoedas. Dessa forma,
-                            não há mais necessidade de conectar-se em uma série de endpoints, atendendo às demanas da sua aplicação em apenas um. Entre as plataformas
+                            não há mais necessidade de conectar-se em uma série de endpoints, atendendo às demandas da sua aplicação em apenas um. Entre as plataformas
                             centralizadas na ModoCripto, estão a CoinGecko e o Mercado Bitcoin.
 
                         </p>
