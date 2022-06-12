@@ -7,7 +7,7 @@ export default function FAQ() {
     return (
       <>
         <AnswerQuestion></AnswerQuestion>
-        <Footer></Footer>
+        <Footer/>
       </>
     )
   }

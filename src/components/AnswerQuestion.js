@@ -1,5 +1,5 @@
 import React from 'react'
-import './AnswerQuestion.css'
+import './ServicesHeroSection.css'
 
 function AnswerQuestion() {
     return  (
